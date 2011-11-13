@@ -1,0 +1,16 @@
+# crg
+
+A Clojure RDF Graph API.
+
+## Usage
+
+(def graph (indexed-graph))
+(def graph2 (add graph (iri "http://example.com/me") :rdf/type (iri "foaf:Person")))
+(pattern graph2 ? :rdf/type ?)
+
+
+## License
+
+Copyright (C) 2011 Paul Gearon
+
+Distributed under the Eclipse Public License, the same as Clojure.
