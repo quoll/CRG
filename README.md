@@ -46,6 +46,6 @@ only be noticeable for large data sets.
 
 ## License
 
-Copyright (C) 2011 Paul Gearon
+Copyright (C) 2011 Paula Gearon
 
 Distributed under the Eclipse Public License, the same as Clojure.
