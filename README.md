@@ -7,7 +7,7 @@ A Clojure RDF Graph API.
 ```clojure
 (let [g (-> (indexed-graph)
           (add "http://example.com/me" :rdf/type :foaf/Person)
-          (add "http://example.com/me" :foaf/name "Paul")
+          (add "http://example.com/me" :foaf/name "Paula")
           (add "http://example.com/fred" :rdf/type :foaf/Person)
           (add "http://example.com/fred" :foaf/name "Fred"))]
   (pattern g ? :rdf/type ?))
