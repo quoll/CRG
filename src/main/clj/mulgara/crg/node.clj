@@ -1,5 +1,5 @@
 (ns ^{:doc "Nodes for RDF"
-      :author "Paul Gearon"}
+      :author "Paula Gearon"}
   mulgara.crg.node
   (:import [java.net URL URI]))
 

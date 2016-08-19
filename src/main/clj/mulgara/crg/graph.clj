@@ -1,5 +1,5 @@
 (ns ^{:doc "A graph implementation with full indexing."
-      :author "Paul Gearon"}
+      :author "Paula Gearon"}
   mulgara.crg.graph
   (:use [mulgara.crg.core :only [add delete pattern]]
         [mulgara.crg.node :only [iri lit ?]])

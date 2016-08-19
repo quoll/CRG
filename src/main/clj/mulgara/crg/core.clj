@@ -1,5 +1,5 @@
 (ns ^{:doc "A Clojure RDF Graph API"
-      :author "Paul Gearon"}
+      :author "Paula Gearon"}
   mulgara.crg.core
   (:use [mulgara.crg.node :only [iri lit subject predicate object ?subject ?predicate ?object]])
   (:import [mulgara.crg.node Iri Literal QName]))
